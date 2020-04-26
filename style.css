@@ -9,10 +9,9 @@ a {
     color: black;
 }
 
-p {
+h1 {
     background-color: aqua;
     color: rgb(252, 235, 4);
-    line-height: 50px;
 }
 
 li {
