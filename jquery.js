@@ -6,4 +6,10 @@ $(document).ready(function() {
     $("li").click(function() {
         $("li").hide();
     });
+    $(".content").mouseenter(function() {
+        $(this).text("Phong đẹp trai");
+    });
+    $(".content").mouseleave(function() {
+        $(this).text("hover me");
+    });
 });

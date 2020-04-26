@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: aqua;
+    color: rgb(252, 235, 4);
+    line-height: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    line-height: 50px;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
