@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $("button").click(function() {
-        $(".p1").hide(1000);
+        $(".p1").fadeOut(1000);
         $(this).text("double click me");
     });
     $("button").dblclick(function() {
-        $(".p1").show(1000);
+        $(".p1").fadeIn("slow");
         $(this).text("click me");
     });
     $("ul li:first").click(function() {
@@ -31,4 +31,11 @@ $(document).ready(function() {
             $(this).css("background-color", "aqua");
         }
     });
+    $(".move")
+        .mouseenter(function() {
+            $(this).animate({ width: "500px" }, 2000);
+        })
+        .mouseleave(function() {
+            $(this).animate({ width: "100px" }, 2000);
+        });
 })

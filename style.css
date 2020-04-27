@@ -27,3 +27,11 @@ li {
 .content {
     margin-top: 20px;
 }
+
+.move {
+    color: aliceblue;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(16, 95, 95);
+}
